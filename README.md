@@ -539,7 +539,7 @@ Depois que seu projeto estiver no GitHub, compartilhe o link com os colegas e mo
 
 ## 🧑‍🏫 Projeto criado por
 **Heberton Geovane**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hebertong/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/heberton-geovane/)  
 
 
 
