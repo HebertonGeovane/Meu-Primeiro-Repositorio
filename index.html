@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Primeiro Repositório</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://unpkg.com/lucide-static/font/lucide.css"
+      rel="stylesheet"
+    />
+    <!-- Fonte -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      /* Animação de fundo */
+      .bg-gradient-animate {
+        background: linear-gradient(270deg, #4f46e5, #9333ea, #f59e0b, #10b981);
+        background-size: 800% 800%;
+        animation: gradientAnimation 15s ease infinite;
+      }
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-animate flex flex-col min-h-screen text-white">
+    <!-- Header -->
+    <header class="py-6 px-8 flex items-center justify-between shadow-lg">
+      <h1 class="text-3xl md:text-4xl font-bold flex items-center gap-3">
+        <i class="lucide-code text-yellow-400 text-4xl"></i> Meu Primeiro
+        Repositório
+      </h1>
+    </header>
+
+    <main
+      class="flex-grow flex flex-col md:flex-row items-center justify-between px-10 py-16 gap-10"
+    >
+      <!-- Imagem lateral esquerda  -->
+      <div class="flex-shrink-0 hidden md:block">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1995/1995576.png"
+          alt="Menino estudando programação"
+          class="w-72 md:w-96 drop-shadow-xl"
+        />
+      </div>
+
+      <!-- Texto + Lista de Habilidades -->
+      <div class="max-w-2xl text-center md:text-left">
+        <p class="text-2xl md:text-3xl font-medium leading-relaxed mb-12">
+          Olá! 👋 Seja bem-vindo ao meu primeiro repositório. Atualmente estou
+          aprendendo sobre
+          <span class="font-bold text-yellow-200">Computação em Nuvem</span>,
+          <span class="font-bold text-green-200">Linux</span>,
+          <span class="font-bold text-purple-200">Redes</span>,
+          <span class="font-bold text-red-200">Segurança da Informação</span>,
+          <span class="font-bold text-yellow-300">Banco de Dados</span> e sou
+          apaixonado pelo
+          <span class="font-bold text-pink-200">Mundo da Programação</span>. 🚀
+        </p>
+
+        <!-- Lista de Habilidades -->
+        <div class="grid md:grid-cols-2 gap-6 text-xl">
+          <div
+            class="flex items-center gap-4 bg-white/10 p-6 rounded-xl shadow hover:scale-105 hover:bg-white/20 transition cursor-pointer"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4144/4144726.png"
+              alt="Nuvem"
+              class="w-8 h-8"
+            />
+            <span>Computação em Nuvem</span>
+          </div>
+          <div
+            class="flex items-center gap-4 bg-white/10 p-6 rounded-xl shadow hover:scale-105 hover:bg-white/20 transition cursor-pointer"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/518/518713.png"
+              alt="Linux"
+              class="w-8 h-8"
+            />
+            <span>Linux</span>
+          </div>
+          <div
+            class="flex items-center gap-4 bg-white/10 p-6 rounded-xl shadow hover:scale-105 hover:bg-white/20 transition cursor-pointer"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4230/4230569.png"
+              alt="Redes"
+              class="w-8 h-8"
+            />
+            <span>Redes</span>
+          </div>
+          <div
+            class="flex items-center gap-4 bg-white/10 p-6 rounded-xl shadow hover:scale-105 hover:bg-white/20 transition cursor-pointer"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png"
+              alt="Segurança"
+              class="w-8 h-8"
+            />
+            <span>Segurança da Informação</span>
+          </div>
+          <div
+            class="flex items-center gap-4 bg-white/10 p-6 rounded-xl shadow hover:scale-105 hover:bg-white/20 transition cursor-pointer"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png"
+              alt="Banco de Dados"
+              class="w-8 h-8"
+            />
+            <span>Banco de Dados</span>
+          </div>
+          <div
+            class="flex items-center gap-4 bg-white/10 p-6 rounded-xl shadow hover:scale-105 hover:bg-white/20 transition cursor-pointer"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2721/2721291.png"
+              alt="Programação"
+              class="w-8 h-8"
+            />
+            <span>Programação</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagem lateral direita  -->
+      <div class="flex-shrink-0 hidden md:block">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1995/1995593.png"
+          alt="Menina estudando programação"
+          class="w-72 md:w-96 drop-shadow-xl"
+        />
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="bg-black/40 backdrop-blur-sm py-8 px-6 mt-auto flex flex-col items-center gap-6"
+    >
+      <div class="flex gap-8 text-3xl">
+        <!-- GitHub -->
+        <a
+          href="https://github.com/seuusuario"
+          target="_blank"
+          class="transition transform hover:scale-125"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            alt="GitHub"
+            class="w-10 h-10 hover:opacity-80"
+          />
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://linkedin.com/in/seuusuario"
+          target="_blank"
+          class="transition transform hover:scale-125"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+            alt="LinkedIn"
+            class="w-10 h-10 hover:opacity-80"
+          />
+        </a>
+
+        <!-- Instagram -->
+        <a
+          href="https://instagram.com/seuusuario"
+          target="_blank"
+          class="transition transform hover:scale-125"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+            alt="Instagram"
+            class="w-10 h-10 hover:opacity-80"
+          />
+        </a>
+      </div>
+      <p class="text-sm text-gray-200">© 2025 Meu Primeiro Repositório</p>
+    </footer>
+  </body>
+</html>
